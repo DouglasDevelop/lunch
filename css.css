@@ -1,0 +1,37 @@
+#illegal {
+  background-color: #ffffff;
+  padding-top: 100px;
+  height: 800px;
+  width: auto;
+  text-align: center;
+  margin-top: -50 auto;
+  margin: 0 auto;
+  place-items: center;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(60, 133, 155);
+  place-items: center;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  place-items: center;
+}
